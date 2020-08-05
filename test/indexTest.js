@@ -28,6 +28,7 @@ describe("bird", () => {
   beforeEach(() => {
     bird = new Bird("Pablo", "male")
     bird2 = new Bird("Mable", "female")
+    
   })
   
   it("has a class of Bird", () => {
